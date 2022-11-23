@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Line_Comparison_Problem
 {
-    internal class UC2
+    internal class UC3
     {
-        public static void CheckEquality()
+        public static void CompareLine()
         {
             Console.WriteLine("Enter x1 and y1 coordinates: ");
             var x1 = Convert.ToDouble(Console.ReadLine());
@@ -28,13 +28,13 @@ namespace Line_Comparison_Problem
             double ans2 = Math.Sqrt(Math.Pow((x3 - x4), 2) + Math.Pow((y3 - y4), 2));
             Console.WriteLine("Ans is :" + ans2);
 
-            if (ans1 == ans2)
+            if (ans1 >= ans2)
             {
-                Console.WriteLine("Both Lines Are Equal");
+                Console.WriteLine("ans1 line is greater than or equal to ans2 line");
             }
             else
             {
-                Console.WriteLine("Both Lines Are Not Equal");
+                Console.WriteLine("ans1 line is less than ans2 line");
             }
         }
     }

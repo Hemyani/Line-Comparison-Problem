@@ -5,7 +5,7 @@ namespace Line_Comparison_Problem
     {
         static void Main(string[] args)
         {
-            UC2.CheckEquality();
+            UC3.CompareLine();
             Console.ReadLine();
         }
     }
