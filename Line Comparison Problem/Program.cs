@@ -5,15 +5,8 @@ namespace Line_Comparison_Problem
     {
         static void Main(string[] args)
         {
-
-            //UC1.Comparison();
-            //Console.ReadLine();
-
-            //UC2.CheckEquality();    
-            //Console.ReadLine();
-
-            //UC3.CompareLine();
-            //Console.ReadLine();
+            UC1.Comparison();
+            Console.ReadLine();
         }
     }
 }
